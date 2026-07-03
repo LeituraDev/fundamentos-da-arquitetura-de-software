@@ -1,14 +1,14 @@
 # Fundamentos da Arquitetura de Software
 
-Repositório de referência do **Clube Leitura Dev** para a leitura do livro _Fundamentos da Arquitetura de Software - 2ª edição_, de Mark Richards e Neal Ford.
+Repositório de referência do **Clube Leitura Dev** para a leitura de _Fundamentos da Arquitetura de Software - 2ª edição_, de Mark Richards e Neal Ford.
 
-Este projeto faz parte da rotina de leitura do **Clube Leitura Dev**. A programação oficial dos encontros pode ser acompanhada em `https://leitura.dev/encontros`.
+A programação oficial dos encontros pode ser acompanhada em `https://leitura.dev/encontros`.
 
-Se alguém quiser usar esta organização como base para criar anotações próprias, há uma versão voltada para esse uso na branch `organizacao-leitura`.
+Quem quiser usar esta organização como base para fazer anotações próprias pode clonar, baixar e customizar a estrutura disponível na branch `organizacao-leitura`.
 
 ## Objetivo
 
-Este repositório existe para servir como **material de referência do próprio clube** durante a leitura, reunindo resumos, notas e registros produzidos ao longo dos estudos e dos encontros.
+Este repositório serve como **material de referência do próprio clube** durante a leitura, reunindo resumos, notas e registros produzidos ao longo dos estudos e dos encontros.
 
 O objetivo é centralizar, em um só lugar:
 
@@ -28,6 +28,8 @@ O objetivo é centralizar, em um só lugar:
 |   |-- capitulo-01-discussao.md
 |   |-- capitulo-02.md
 |   |-- capitulo-02-discussao.md
+|   |-- capitulo-03.md
+|   |-- capitulo-03-discussao.md
 |   `-- templates/
 |       |-- capitulo-discussao.md
 |       `-- capitulo.md
@@ -36,7 +38,9 @@ O objetivo é centralizar, em um só lugar:
 |   `-- templates/
 |       `-- encontro.md
 `-- referencias/
-    `-- README.md
+    |-- README.md
+    `-- capitulo-03/
+        `-- prompt-calculo-acoplamento.md
 ```
 
 ## Como o repositório é construído
@@ -46,7 +50,7 @@ O conteúdo deste repositório é alimentado ao longo da leitura e dos encontros
 - `capitulos/` reúne os resumos e as anotações de estudo por capítulo;
 - cada capítulo pode ter um arquivo principal e um arquivo separado para as perguntas de discussão do fim do capítulo;
 - `encontros/` registra os principais pontos discutidos em cada encontro;
-- `referencias/` concentra materiais complementares que ajudam a aprofundar os temas.
+- `referencias/` concentra materiais complementares que ajudam a aprofundar os temas, inclusive materiais específicos por capítulo quando fizer sentido.
 
 ## Linha editorial
 
@@ -71,7 +75,7 @@ As perguntas de discussão presentes ao fim dos capítulos devem ser respondidas
 ## Fluxo de manutenção
 
 - a `main` concentra o material oficial e consolidado do clube;
-- a branch `organizacao-leitura` pode ser usada por quem quiser clonar, baixar e adaptar a estrutura para anotações próprias;
+- a branch `organizacao-leitura` existe como versão-base para quem quiser reaproveitar a estrutura em anotações próprias;
 - branches temporárias podem ser usadas apenas para mudanças estruturais maiores antes de integrar tudo na `main`.
 
 ## Critérios para boas notas
@@ -89,5 +93,6 @@ As perguntas de discussão presentes ao fim dos capítulos devem ser respondidas
 
 ## Estado atual
 
-- capítulos `01` e `02` já possuem arquivos de resumo e discussão;
+- capítulos `01`, `02` e `03` já possuem arquivos de resumo e discussão;
+- já existe material complementar organizado em `referencias/`, incluindo conteúdo específico do capítulo `03`;
 - a estrutura está pronta para receber os próximos capítulos e os registros de encontro.
