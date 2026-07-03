@@ -17,14 +17,19 @@ O objetivo é centralizar, em um só lugar:
 - conceitos importantes;
 - aplicações práticas e dúvidas.
 
-## Estrutura proposta
+## Estrutura do repositório
 
 ```text
 .
 |-- README.md
 |-- capitulos/
 |   |-- README.md
+|   |-- capitulo-01.md
+|   |-- capitulo-01-discussao.md
+|   |-- capitulo-02.md
+|   |-- capitulo-02-discussao.md
 |   `-- templates/
+|       |-- capitulo-discussao.md
 |       `-- capitulo.md
 |-- encontros/
 |   |-- README.md
@@ -39,6 +44,7 @@ O objetivo é centralizar, em um só lugar:
 O conteúdo deste repositório é alimentado ao longo da leitura e dos encontros do clube.
 
 - `capitulos/` reúne os resumos e as anotações de estudo por capítulo;
+- cada capítulo pode ter um arquivo principal e um arquivo separado para as perguntas de discussão do fim do capítulo;
 - `encontros/` registra os principais pontos discutidos em cada encontro;
 - `referencias/` concentra materiais complementares que ajudam a aprofundar os temas.
 
@@ -47,6 +53,7 @@ O conteúdo deste repositório é alimentado ao longo da leitura e dos encontros
 Para manter o repositório útil como referência coletiva do clube:
 
 - `capitulos/` responde: o que o livro apresenta e quais pontos merecem destaque;
+- `capitulos/*-discussao.md` responde: como as perguntas finais do capítulo foram trabalhadas;
 - `encontros/` responde: o que foi discutido no clube e o que ficou mais claro;
 - `referencias/` reúne materiais complementares que ajudam a aprofundar os temas;
 - os resumos e observações são incorporados como parte do registro de estudo do clube.
@@ -61,6 +68,12 @@ Para manter o repositório útil como referência coletiva do clube:
 
 As perguntas de discussão presentes ao fim dos capítulos devem ser respondidas em arquivos separados, vinculados ao respectivo capítulo.
 
+## Fluxo de manutenção
+
+- a `main` concentra o material oficial e consolidado do clube;
+- a branch `organizacao-leitura` pode ser usada por quem quiser clonar, baixar e adaptar a estrutura para anotações próprias;
+- branches temporárias podem ser usadas apenas para mudanças estruturais maiores antes de integrar tudo na `main`.
+
 ## Critérios para boas notas
 
 - Resumo: o que o autor quis explicar.
@@ -73,3 +86,8 @@ As perguntas de discussão presentes ao fim dos capítulos devem ser respondidas
 - participantes do Clube Leitura Dev que querem revisar capítulos e encontros;
 - pessoas que estão acompanhando a leitura do livro junto ao clube;
 - futuras leituras e revisões desse ciclo de estudos.
+
+## Estado atual
+
+- capítulos `01` e `02` já possuem arquivos de resumo e discussão;
+- a estrutura está pronta para receber os próximos capítulos e os registros de encontro.
