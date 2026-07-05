@@ -13,21 +13,21 @@ Qual é a diferença entre particionamento técnico e particionamento por domín
 **Resposta:**
 
 ### Pergunta 3
+Qual é a vantagem do particionamento por domínio.
 
 **Resposta:**
 
 ### Pergunta 4
+Em que circunstâncias o particionamento técnico seria uma escolha melhor do que o particionamento por domínio?
 
 **Resposta:**
 
 ### Pergunta 5
+O que é a Armadilha a Entidade? Por que não é uma boa abordagem para a identificação de componentes?
 
 **Resposta:**
 
 ### Pergunta 6
-
-**Resposta:**
-
-### Pergunta 7
+Quando podemos escolher a abordagem do Fluxo de Trabalho em vez da abordagem do Ator/Ação para identificar componentes básicos?
 
 **Resposta:**

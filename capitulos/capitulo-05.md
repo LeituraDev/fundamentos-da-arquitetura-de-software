@@ -1,4 +1,4 @@
-# Capítulo 4 - Definição das Características Arquiteturais
+# Capítulo 5 - Identificando Características Arquiteturais
 
 ## Resumo
 

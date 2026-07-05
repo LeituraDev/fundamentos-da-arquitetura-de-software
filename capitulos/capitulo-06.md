@@ -1,4 +1,4 @@
-# Capítulo 4 - Definição das Características Arquiteturais
+# Capítulo 6 - Medindo e Controloando as Características Arquiteturais
 
 ## Resumo
 
